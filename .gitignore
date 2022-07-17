@@ -1,7 +1,20 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+*.apk
+*.ipa
+# macOS
+.DS_Store
 # OSX
 #
 .DS_Store
-
 # Xcode
 #
 build/
@@ -20,40 +33,58 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-
+project.xcworkspace
 # Android/IntelliJ
 #
-build/
+android/.gradle/
+android/.idea/
+android/app/build/**
+/captures
+.externalNativeBuild
 .idea
 .gradle
 local.properties
 *.iml
-
+.lock
+.bin
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
-
+android/.idea/
+android/local.properties
 # BUCK
 buck-out/
 \.buckd/
 *.keystore
-!debug.keystore
-
+ios/Pods/
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
-
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
-
 # Bundle artifact
 *.jsbundle
-
 # CocoaPods
 /ios/Pods/
+*.apk
+*.apk
+android/app/build_defs.bzl
+android/app/debug.keystore
+android/app/proguard-rules.pro
+android/app/release/app-release.apk
+android/app/release/output.json
+android/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+android/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+*.apk
+ios/Podfile.lock
+
+package-lock.json
+
+ios/Podfile.lock
+*.apk
